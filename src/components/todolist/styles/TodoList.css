@@ -1,0 +1,64 @@
+/* TodoList.css */
+.todo-list {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .todo-list h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .todo-list input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .todo-list button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .todo-list button:hover {
+    background-color: #c0392b;
+  }
+  .todo-list {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Para asegurarse de que ocupa todo el alto de la pantalla */
+  }
+  /* TodoList.css */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* ... otros estilos ... */
+  

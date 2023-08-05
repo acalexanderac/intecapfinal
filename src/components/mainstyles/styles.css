@@ -1,0 +1,16 @@
+h1 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.87em;
+    margin-block-end: 0.87em;
+    margin-inline-start: 550px;
+    margin-inline-end: 580px;
+    font-weight: bold;
+
+}
+hr {
+    border: none; /* Elimina el borde predeterminado */
+    height: 10px; /* Altura de la línea */
+    background-color: rgba(187, 255, 0, 0.413);; /* Color de la línea */
+    margin: 20px 0; /* Margen superior e inferior */
+  }
